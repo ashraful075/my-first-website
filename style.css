@@ -1,4 +1,5 @@
 body{
+    margin: 0%;
     font-family: 'Alumni Sans Inline One', cursive;
 font-family: 'Cabin', sans-serif;
 font-family: 'Poppins', sans-serif;
@@ -7,8 +8,11 @@ font-family: 'Roboto', sans-serif;
 h1{
     font-size: 50px;
 }
+p{
+    color: darkgreen;
+}
 .name-heighlight{
-    color: lightsalmon;
+    color: palevioletred;
 }
 .half-width{
     width: 40%;
@@ -26,4 +30,50 @@ h1{
 }
 section{
     height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(180deg, pink, palevioletred);
+    background-color: palevioletred;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.biodata{
+    background-image: url("images/biography-bg.png");
+    background-position: center;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 40px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.row{
+    display: flex;
+}
+.column{
+    flex: 33.33%;
+    padding: 40px;
+}
+.column img{
+    width: 100%;
+}
+.work{
+    background-image: url("images/latest-work-bg.png");
+    background-position: center;
+}
+.end-part{
+    background-image: url("images/footer-bg.png");
+    background-position: center;
+    text-align: center;
+}
+footer p{
+    text-align: center;
 }
