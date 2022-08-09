@@ -1,0 +1,29 @@
+body{
+    font-family: 'Alumni Sans Inline One', cursive;
+font-family: 'Cabin', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.name-heighlight{
+    color: lightsalmon;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 60%;
+}
+.header-bg{
+    
+    background-image: url("images/header-bg.png");
+    background-position: center;
+}
+section{
+    height: 500px;
+}
